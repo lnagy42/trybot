@@ -6,7 +6,7 @@ var request = app.textRequest('Bonjour Olympe, bienvenue au monde', {
     sessionId: 'Some unique sessionId'
 });
 
-request.on('response, function(response) {
+request.on('response', function(response) {
     console.log(response);
 });
 
